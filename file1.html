@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<link rel="stylesheet" href="file1.css" />
+
+<body>
+	<div class="navbar">
+	<h1>shopping website</h1>	
+   <ul>
+     <li><a href="file1.html">Home</a></li>
+     <li><a href="about.html">About</a></li>
+     <li><a href="services.html">Services</a></li>
+     <li><a href="contact.html">Contact</a></li>
+   </ul>
+   	<ul>
+   	<a href="login1.php">logout</a>	
+    <a href="register1.html">sign in</a>
+   </ul>
+  </div>
+  
+    <section id="introduction">
+    <div style="max-width: 800px; margin: 50px auto ; text-align: center;  color: white; background-image: url(wallpaper.jpg);">
+        <h1>xxxxx</h1>
+        <p>xxxxxxxxx</p>
+      </div>
+    </section>
+
+   
+      
+    <section id="gallery">
+      <div class="container">
+        <div class="image-gallery">
+ <button type= "button" id="prevbtn" onclick="currentImageIndex = swapImagePrev(currentImageIndex,currentImageIndex -1,currentImageIndex+2)"><</button>
+
+          <div class="image">
+            <img src="budget.png" alt="budget image 1" width="300" height="200">
+            <h1>a               </h1>
+            <h1>RM 500</h1>
+            <h1><button type="button"><a href="">BUY</a></button></h1>
+          </div>
+          <div class="image">
+            <img src="Untitled.jpg" alt="Untitled image 2" width="300" height="200">
+            <h1>a</h1>
+            <h1>RM 500</h1>
+            <h1><button type="button"><a href="">BUY</a></button></h1>
+          </div>
+          <div class="image">
+            <img src="budget.png" alt="budget image 2" width="300" height="200">
+            <h1>a</h1>
+            <h1>RM 500</h1>
+            <h1><button type="button"><a href="">BUY</a></button></h1>
+          </div> 
+          <div class="image" style="display:none;">
+            <img src="Untitled.jpg" alt="Untitled image 4" width="300" height="200">
+            <h1>a</h1>
+            <h1>RM 500</h1>
+            <h1><button type="button"><a href="">BUY</a></button></h1>
+          </div>
+          <div class="image" style="display:none;">
+            <img src="budget.png" alt="budget image 5" width="300" height="200">
+           <h1>b</h1>
+            <h1>RM 50</h>
+            <h1><button type="button"><a href="">BUY</a></button></h1>
+          </div>  
+          <div class="image" style="display:none;">
+            <img src="budget.png" alt="budget image 6" width="300" height="200">
+            <h1>a</h1>
+            <h1>RM 500</h1>
+            <h1><button type="button"><a href="">BUY</a></button></h1>
+          </div> 
+          <button id="nextbtn" onclick="currentImageIndex = swapImageNext(currentImageIndex,currentImageIndex +1,currentImageIndex+3)">></button> 
+        </div>
+          </div>
+    <section id="animation-section">
+          <h2>Animation</h2>
+
+          <div class="animation-container">
+            <div class="option-music">
+              <nav>
+                <ul>
+                  <li><button value="0">cyclone</button></li>
+                  <li><button value="1">joker</button></li>
+                  <li><button value="2">iris out</button></li>
+                  <li><button value="3">jane doe</button></li>
+                  <li><button value="4">ocean</button></li>
+                </ul>
+              </nav>
+            </div>
+            <img src="cyclone.webp" onclick="play()">
+            <audio id="background-audio">
+              <source src="cyclone.mp3" type="audio/mpeg">
+
+                <source src="joker.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+    </section>
+
+    <!-- hidden image-->
+          <script>
+            let currentImageIndex = 0;
+            const images = document.querySelectorAll('.image');
+            function swapImageNext(currentImageIndex,index,indexback){
+
+              console.log(currentImageIndex,indexback);
+              images[currentImageIndex].style.display='none';
+              if(currentImageIndex > 0){
+                document.getElementById("prevbtn").removeAttribute("disabled");
+              }
+               if (indexback >= images.length-1){
+                document.getElementById("nextbtn").disabled = true;
+               }
+
+              images[indexback].style.display = 'block';
+              images[indexback].animate([
+                { transform: 'translateX(100%)', opacity: 0 },
+                { transform: 'translateY(0)',opacity:1}
+              ],{
+                //timing options
+                duration: 500,
+                easing: 'ease-out',
+              });
+              currentImageIndex = index;
+              return currentImageIndex;
+            }
+            function swapImagePrev(currentImageIndex,index,indexback){
+              console.log(currentImageIndex,indexback);
+              currentImageIndex--;
+              images[indexback].style.display='none';
+              if(currentImageIndex <= images.length-1){
+                document.getElementById("nextbtn").removeAttribute("disabled");
+              }
+               if (currentImageIndex <= 0){
+                document.getElementById("prevbtn").disabled = true;
+               }
+
+              images[currentImageIndex].style.display = 'block';
+              images[currentImageIndex].animate([
+                { transform: 'translateX(-100%)', opacity: 0 },
+                { transform: 'translateX(0)',opacity:1}
+              ],{
+                //timing options
+                duration: 500,
+                easing: 'ease-out',
+              });
+              currentImageIndex = index;
+              return currentImageIndex;
+            }
+             setInterval(() => {
+          const alertBox = document.querySelector(".alert-box");
+          alertBox.style.display = "none";
+        },5000);
+
+         function playAudio(){
+          const audio = document.getElementById("background-audio");
+          audio.play();
+         }
+         const buttons_swapMusic = document.querySelectorAll('.option-music button');
+         buttons_swapMusic.forEach(button =>{
+          button.addEventListener('click', () =>{
+            buttons_swapMusic.forEach(btn => btn.removeAttribute('active'));
+            button.setAttribute('active','');
+            const audio = document.getElementById("background-audio");
+            const img = document.querySelector('.animation-container img');
+
+            let music=["audio 1.mp3","audio 2.mp3","audio 3.mp3","audio 4.mp3"]
+            let image=["cyclone.webp","joker.jpeg","accel.jpeg","fang.jpeg"];
+
+            img.src=image[button.value];
+            audio.src = music[button.value];
+            audio.play();
+          });
+        });
+
+          </script> 
+
+          
+
+      <div class="footer">
+   <p>&copy;2024 My Website. All rights reserved.</p>
+ </div>
+</body>
+</html>

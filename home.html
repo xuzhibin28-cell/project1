@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<style>
+	.navbar{
+	background-color: blue;
+	overflow: hidden;
+	display: flex;
+	color: white;
+	justify-content: space-between;
+	align-items: center;
+	padding: 14px 15px;
+}
+.navbar a {
+	color: white;
+	padding: 14px 20px;
+	text-decoration: none;
+	text-align: center;
+}
+.navbar ul{
+	list-style-type: none;
+	display: flex;
+	align-items: right;
+	margin: 0;
+	padding:0 ;
+}
+
+	
+.div1{
+	background-color: black;
+	color: white;
+	}
+
+.container{
+	max-width: 1200px;
+	margin: 20px auto;
+	padding: 20px;
+	text-align: center;
+
+	/*background-image: (to right,green,blue);*/
+	background-image: url(wallpaper.jpg);
+	border-radius: 8px;   
+}
+.image-gallery{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center;
+}
+.image{
+	flex: 1 1 calc(33.333% - 40px);
+	border-radius: 3px;
+	box-sizing: border-box;
+	width: 300;
+	height: 200;
+}
+.image img{
+	width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 3px;
+}
+.footer{
+	background-color: blue;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	position:fixed;
+	left:0;
+	bottom:0;
+	width: 100%;
+
+}
+body{
+	background-image: url(928.jpg);
+	background-size: 115%;
+}
+</style>
+<body>
+	<div class="navbar">
+	<h1>shopping website</h1>	
+   <ul>
+     <li><a href="file1.php">Home</a></li>
+     <li><a href="about.html">About</a></li>
+     <li><a href="services.html">Services</a></li>
+     <li><a href="contact.html">Contact</a></li>
+   </ul>
+   	<ul>
+   	<a href="login1.php">logout</a>	
+   </ul>
+  </div>
+  <label>a</label>
+    
+    <div class="footer">
+   <p>&copy;2024 My Website. All rights reserved.</p>
+ </div>
+</body>
+</html>

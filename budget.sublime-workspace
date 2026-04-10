@@ -1,0 +1,770 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"st",
+				"style"
+			],
+			[
+				"di",
+				"div"
+			],
+			[
+				"pr",
+				"progress"
+			],
+			[
+				"b",
+				"button"
+			],
+			[
+				"o",
+				"output"
+			],
+			[
+				"i",
+				"input"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"ba",
+				"background-position"
+			],
+			[
+				"bacg",
+				"background-repeat"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"PA",
+				"padding"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"wh",
+				"white"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"blue",
+				"skyblue"
+			],
+			[
+				"td",
+				"td"
+			],
+			[
+				"h",
+				"h1"
+			],
+			[
+				"th",
+				"th"
+			],
+			[
+				"cr",
+				"controls"
+			],
+			[
+				"TH",
+				"th"
+			],
+			[
+				"t",
+				"table"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"opt",
+				"option"
+			],
+			[
+				"co",
+				"conn"
+			],
+			[
+				"_S",
+				"$_SESSION\tSESSION['…']"
+			],
+			[
+				"spo",
+				"sport_type"
+			],
+			[
+				"_",
+				"$_POST\tPOST['…']"
+			],
+			[
+				"pas",
+				"password_verify()"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"e",
+				"email"
+			],
+			[
+				"ge",
+				"gender"
+			],
+			[
+				"pass",
+				"password_hash()"
+			],
+			[
+				"ses",
+				"session_start()"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"is",
+				"isPast"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"borde",
+				"border-collapse"
+			],
+			[
+				"heade",
+				"header()"
+			],
+			[
+				"_P",
+				"$_POST\tPOST['…']"
+			],
+			[
+				"iss",
+				"isset()"
+			],
+			[
+				"password",
+				"password_hash()"
+			],
+			[
+				"date_timezone",
+				"date_default_timezone_set()"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"total_",
+				"total_expense"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"padding-",
+				"padding-left"
+			],
+			[
+				"up",
+				"update"
+			],
+			[
+				"add",
+				"add_btn"
+			],
+			[
+				"li",
+				"lightgray"
+			],
+			[
+				"fo",
+				"font-style"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"add_",
+				"add_amt"
+			],
+			[
+				"gr",
+				"gray"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"tot",
+				"total_expense"
+			],
+			[
+				"de",
+				"delete"
+			],
+			[
+				"g",
+				"$_GET\tGET['…']"
+			],
+			[
+				"_po",
+				"$_POST\tPOST['…']"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"hea",
+				"header()"
+			],
+			[
+				"inc",
+				"inclued_get_data()"
+			],
+			[
+				"_SERV",
+				"$_SERVER\tSERVER['…']"
+			],
+			[
+				"_O",
+				"$_POST\tPOST['…']"
+			],
+			[
+				"p",
+				"password"
+			],
+			[
+				"ex",
+				"explode()"
+			],
+			[
+				"date_default",
+				"date_default_timezone_set()"
+			],
+			[
+				"for",
+				"format"
+			],
+			[
+				"exi",
+				"exit()"
+			],
+			[
+				"_PO",
+				"$_POST\tPOST['…']"
+			],
+			[
+				"s",
+				"$_SESSION\tSESSION['…']"
+			],
+			[
+				"SE",
+				"$_SESSION\tSESSION['…']"
+			],
+			[
+				"mysqli_fetch",
+				"mysqli_fetch_assoc"
+			],
+			[
+				"mysqli",
+				"mysqli_fetch_assoc"
+			],
+			[
+				"mys",
+				"mysqli_query"
+			],
+			[
+				"sub",
+				"sub_edit"
+			],
+			[
+				"r",
+				"r_status"
+			],
+			[
+				"edit",
+				"edit_sub"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"ta",
+				"task_summary"
+			],
+			[
+				"stro",
+				"strtotime()"
+			],
+			[
+				"r_",
+				"r_status"
+			],
+			[
+				"ac",
+				"action"
+			],
+			[
+				"es",
+				"else"
+			],
+			[
+				"eles",
+				"elseif\telseif …"
+			],
+			[
+				"title",
+				"task_title"
+			],
+			[
+				"border-r",
+				"border-radius\tproperty"
+			],
+			[
+				"baco",
+				"background-color\tproperty"
+			],
+			[
+				"session",
+				"session_start"
+			],
+			[
+				"sta",
+				"status"
+			],
+			[
+				"mysf",
+				"mysql_fetch_array"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "test6.php",
+			"settings":
+			{
+				"buffer_size": 1145,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test5.php",
+			"settings":
+			{
+				"buffer_size": 666,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					4,
+					"left_delete",
+					null,
+					"BAAAAIkAAAAAAAAAiQAAAAAAAAABAAAAZYgAAAAAAAAAiAAAAAAAAAABAAAAZ4cAAAAAAAAAhwAAAAAAAAABAAAAb4YAAAAAAAAAhgAAAAAAAAABAAAAZA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACKAAAAAAAAAIoAAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/newproject/test5.php",
+		"/C/xampp/htdocs/newproject/ooo.php",
+		"/C/xampp/htdocs/newproject/test6.php",
+		"/C/xampp/htdocs/newproject/mm.php",
+		"/C/xampp/htdocs/newproject/test4.php",
+		"/C/xampp/htdocs/newproject/bin.php",
+		"/C/xampp/htdocs/newproject/index.php",
+		"/C/xampp/htdocs/newproject/ggg.php",
+		"/C/xampp/htdocs/newproject/uuu.php",
+		"/C/xampp/htdocs/newproject/test.php",
+		"/C/xampp/htdocs/newproject/tesy.php",
+		"/C/xampp/htdocs/newproject/rip.php",
+		"/C/xampp/htdocs/newproject/test3.php",
+		"/C/xampp/htdocs/newproject/budget.sublime-workspace",
+		"/C/xampp/htdocs/newproject/test4php",
+		"/C/xampp/htdocs/newproject/test3,php",
+		"/C/Program Files/Sublime Text/sublime_text.exe",
+		"/C/Users/USER/Pictures/Untitled.jpg",
+		"/C/xampp/htdocs/newproject/yyy",
+		"/C/xampp/htdocs/newproject/charmander.jpg",
+		"/C/xampp/htdocs/newproject/PPP.php",
+		"/C/xampp/htdocs/newproject/vvb.hph",
+		"/C/xampp/htdocs/newproject/vvvv",
+		"/C/xampp/htdocs/newproject/p",
+		"/C/xampp/htdocs/student_list/db.php",
+		"/C/xampp/htdocs/student_list/index.php",
+		"/C/xampp/htdocs/student_list/delete.php",
+		"/C/xampp/htdocs/student_list/add.php",
+		"/C/xampp/htdocs/student_list/edit.php",
+		"/C/xampp/htdocs/crud/index.php",
+		"/C/xampp/htdocs/crud/db.php",
+		"/C/xampp/htdocs/Reminder_Task/index.php",
+		"/C/xampp/htdocs/db.php",
+		"/C/xampp/htdocs/index.php",
+		"/C/xampp/htdocs/register.php",
+		"/C/xampp/htdocs/login.php",
+		"/C/xampp/htdocs/survey.php",
+		"/C/xampp/htdocs/result.php",
+		"/C/xampp/htdocs/reminder/index.php",
+		"/C/xampp/htdocs/survey/index.php",
+		"/C/xampp/htdocs/personal_accounting/personal_accounting.sql",
+		"/C/xampp/htdocs/personal_accounting/index.php",
+		"/C/xampp/htdocs/personal_accounting/test.php",
+		"/C/xampp/htdocs/reminder_task/index.php",
+		"/C/xampp/htdocs/reminder_system/index.php",
+		"/C/xampp/htdocs/survey_system/index.php",
+		"/C/xampp/htdocs/reminder.php",
+		"/C/xampp/htdocs/survey/db.php",
+		"/C/xampp/htdocs/survey/login.php",
+		"/C/xampp/htdocs/survey/register.php",
+		"/C/xampp/htdocs/survey/result.php",
+		"/C/Users/USER/.vscode/argv.json",
+		"/C/xampp/htdocs/t/db.php",
+		"/C/xampp/htdocs/t/index.php",
+		"/C/xampp/htdocs/t/edit.php",
+		"/C/xampp/htdocs/t/delete.php",
+		"/C/xampp/htdocs/reminder_system/include/db.php",
+		"/C/xampp/htdocs/reminder_system/create.php",
+		"/C/xampp/htdocs/reminder_system/update.php",
+		"/C/xampp/htdocs/reminder_system/delete.php",
+		"/C/xampp/htdocs/pretest_reminder/index.php",
+		"/C/xampp/htdocs/pretest_survey/index.php",
+		"/C/xampp/htdocs/pretest_survey/view.php",
+		"/C/xampp/htdocs/pretest_survey/form.php",
+		"/C/xampp/htdocs/pretest_survey/db.php",
+		"/C/xampp/htdocs/pretest_reminder/db.php",
+		"/C/xampp/htdocs/survey/survey.php",
+		"/C/xampp/htdocs/survey/formlist.php",
+		"/C/xampp/htdocs/survey_system/db.php",
+		"/C/xampp/htdocs/survey_system/logout.php",
+		"/C/xampp/htdocs/survey_system/main.php",
+		"/C/xampp/htdocs/remindertask/db.php",
+		"/C/xampp/htdocs/remindertask/index.php",
+		"/C/xampp/htdocs/survey_system/index",
+		"/C/xampp/htdocs/reminder/reminder.php",
+		"/C/xampp/htdocs/reminder_system/db.php",
+		"/C/xampp/htdocs/halo/index.php",
+		"/C/xampp/htdocs/halo/db.php",
+		"/C/xampp/htdocs/task_system/include/db.php",
+		"/C/xampp/htdocs/task_system/delete.php",
+		"/C/xampp/htdocs/task_system/update.php",
+		"/C/xampp/htdocs/task_system/index.php",
+		"/C/xampp/htdocs/task_system/css/style.css",
+		"/C/xampp/htdocs/foreverlove/index.php",
+		"/C/xampp/htdocs/foreverlove/db.php",
+		"/C/xampp/htdocs/foreverlove/edit.php",
+		"/C/xampp/htdocs/todolist/database.php",
+		"/C/xampp/htdocs/todolist/edit.php",
+		"/C/xampp/htdocs/todolist/index.php",
+		"/C/xampp/htdocs/warehousing-system(bug)/index.php",
+		"/C/xampp/htdocs/warehousing-system(bug)/config/db.php",
+		"/C/xampp/htdocs/warehousing-system(bug)/login.php",
+		"/C/xampp/htdocs/warehousing-system(bug)/register.php",
+		"/C/xampp/htdocs/warehousing-system(bug)/warehousing (1).sql",
+		"/C/xampp/htdocs/testfile.php",
+		"/C/xampp/htdocs/surveyindex.php",
+		"/C/xampp/htdocs/warehouse1/ww.php"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"underline"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "test6.php",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1145,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "test5.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 666,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "",
+	"project": "budget.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 152.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

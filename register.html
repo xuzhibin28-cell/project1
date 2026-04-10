@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<style>
+        body{
+      background-image: url(wow.jpg);
+      background-size: 115%;
+    }
+</style>
+ <link rel="stylesheet" href="login.css">
+<body>
+
+	<div class="container">
+	<div style="text-align:center;">
+    <label for="username">sign in:</label>
+    <br>
+     <label for="email">email</label>
+     <br>
+     <input type="email" id="email" name="email">
+     <br>
+     <label for="password">password:</label>
+     <br>
+     <input type="password" id="password" oninput="checkpasswords()" name="password" placeholder="password">
+     <br>
+     <label for="password">confirm password</label>
+     <br>
+     <input type="password" id="confirm_password"  oninput="checkpasswords()"placeholder=" confirm password">
+     </div>
+     <br>
+     <p id="message"></p>
+     <div style="text-align:center;">
+     <button type="button">sign in</button>
+ </div>
+     <br>
+     <a href="login.php">back to login</a>
+   </div>
+   
+   <script>
+     const button=document.querySelector("button");
+     button.addEventListener("click",()=>{
+      const email = document.getElementById("email").value;
+      const password = document.getElementById("password").value;
+      const confirm_password = document.getElementById("confirm_password").value;
+
+       if(password!==confirm_password){
+        alert('sign in fail','red');
+        return;
+         //redirect to another page or perform other actions
+       } else {
+        localStorage.setItem("email",email);
+        localStorage.setItem("password",password)
+           alert('sign in complete','green');
+           window.location.href="login.php"
+       }
+     });
+
+       function checkpasswords(){
+        const password = document.getElementById("password").value;
+        const confirm_password = document.getElementById("password").value;
+        const message = document.getElementById("message");
+
+        if (password === confirm_password){
+            message.style.color = "green";
+            message.textContent = "Password match";
+        } else {
+            message.style.color = "red";
+            message.textContent = "Password no match";
+        }
+        
+       } 
+   </script>
+
+</body>
+</html>
